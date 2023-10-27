@@ -26,7 +26,7 @@
     --character-top-image-color: #ffffff;
     --character-bottom-image-src: url("../images/characters/inverted-world-monster.svg");
     --character-bottom-image-color: #e5e5e5;
-    --background-lamp-image: url("../images/backgrounds/lamps.png");
+    --background-lamp-image: url("../images/backgrounds/png-yoda-star-wars-png-world-9.png");
     --footer-background-color: #b5bbbf;
   }
   
@@ -44,7 +44,7 @@
     --character-bottom-image-color: rgba(255, 255, 255, 0.1);
     --character-top-image-src: url("../images/characters/inverted-world-monster.svg");
     --character-top-image-color: #000;
-    --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
+    --background-lamp-image: url("../images/backgrounds/png-yoda-star-wars-png-world-9.png");
     --footer-background-color: #000;
   }
 /** Ajuste d eleitura do themer darck**/
@@ -58,7 +58,7 @@
 
   .dark-theme .invert-element{
     transform: rotateZ(180deg) scaleX(-1);
-
+    height: 50%; width: 50%;
   }
 
   /*** Generic Style***/
@@ -131,7 +131,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url(../images/banner/florest.webp);
+    background-image: url(../images/banner/Wallpaper.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 90%;
@@ -197,7 +197,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: var(--page-background) no-repeat, url(../images/backgrounds/florest.png) no-repeat;
+    background: var(--page-background) no-repeat, url(../images/backgrounds/Wallpaper.png) no-repeat;
     background-size: cover;
     z-index: -1;
   }

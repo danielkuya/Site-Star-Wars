@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/images/favicon/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/banner/darth-vader_icon-icons.com_.ico" type="image/x-icon">
     <title>Mundo Invertido</title>
 
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -12,7 +12,7 @@
   <body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
     <header aria-label="Cabeçalho da página.">
       <audio id="music" autoplay>
-        <source src="assets/musics/normal-world.mpeg" aria-details="Audio do site" />
+        <source src="assets/musics/SnapInsta.io - Luna Beauty & @xamuelmc (128 kbps).mp3" aria-details="Audio do site" />
       </audio>
       <div class="header-content">
         <img class="invert-element" src="assets/images/banner/favicon.png" alt="Imagem principal Mundo Invertido. Semana Frontend DIO." />
@@ -47,14 +47,14 @@
 
         <img
           class="invert-element"
-          src="assets/images/content/inverted-world.png"
+          src="assets/images/content/big-poster-filme-star-wars-uma-wars.png"
           alt="Image ilustrativa do Mundo Invertido"
         />
       </section>
 
       <section id="section-stranger-things-trailer" class="container">
         <div class="video-frame" aria-hidden="true">
-          <iframe width="460" height="225" src="https://www.youtube.com/embed/otutSrxYpa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WbwuzMIwItE?si=79mNxUe3cl6yCEy1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="section-texts">
           <h2>Star Wars: A Ascensão de Skywalker</h2>
@@ -71,13 +71,13 @@
           <h2>A franquia mais assistida do mundo</h2>
           <ul class="gallery-container" role="gallery">
             <li class="gallery-image invert-element">
-              <img src="assets/images/content/serie-image-01.png" alt="Imagem de Vecna" />
+              <img src="assets/images/content/serie-image-01.jpg" alt="Primeira Imagem" />
             </li>
             <li class="gallery-image invert-element">
-              <img src="assets/images/content/serie-image-02.png" alt="Imagem ilustrativa dos amigos de Eleven" />
+              <img src="assets/images/content/serie-image-02.jpg" alt="Segunda Imagem" />
             </li>
             <li class="gallery-image invert-element">
-              <img src="assets/images/content/serie-image-03.png" alt="Imagem Eleven assustada" />
+              <img src="assets/images/content/serie-image-03.jpg" alt="Terceira Imagem" />
             </li>
           </ul>
         </div>
@@ -92,7 +92,7 @@
         </p>
 
         <div class="form-content">
-          <h3>Entre para o clube de D&D e tenha experiências de <span>outro mundo<span></span></h3>
+          <h3>Entra em contato com a gente pra receber <span>mais informações<span></span></h3>
 
           <div class="form-container">
             <form>
@@ -102,10 +102,10 @@
               <label for="email">E-mail</label>
               <input type="email" name="email" id="txtEmail">
           
-              <label for="level">Level</label>
+              <label for="level">Idade</label>
               <input type="number" name="level" id="txtLevel">
           
-              <label for="character">Personagem</label>
+              <label for="character">Mensagem</label>
               <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
             
               <button type="button" id="btnSubscribe">Me inscrever</button>
@@ -118,10 +118,10 @@
 
     <footer>
       <p>
-        Projeto construído para fins didáticos, com o objetivo de colocar em
-        prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO._
+        Esse site foi construído para um projeto para a matéria de Desenvolvimento Web
+        nas faculdade SENAI de Tecnologia. 
       </p>
-      <img src="assets/images/footer/logo.svg" alt="">
+      <img src="assets/images/footer/115.png" alt="">
     </footer>
     
     <script type="module" src="assets/js/main.js"></script>
@@ -137,7 +137,7 @@
          //toggle aclasse ou adiciona depedendo se est aou não
 
          const theme = document.body.classList[0];
-         const music = theme ==='light-theme' ? 'normal-world.mpeg' : 'inverted-world.mpeg'
+         const music = theme ==='light-theme' ? 'SnapInsta.io - Luna Beauty & @xamuelmc (128 kbps).mp3' : 'SnapInsta.io - Luna Beauty & @xamuelmc (128 kbps).mp3'
 
          const audio = document.getElementById('music');
          audio.src = `assets/musics/${music}`;
